@@ -1,0 +1,4 @@
+Kitten Name: <%= @kitten.name %><br>
+<%= link_to "Edit", edit_kitten_path %><br>
+<%= link_to "Delete", @kitten, method: :delete, 
+                               data: { confirm: "You sure you want to delete this kitten?" } %>
